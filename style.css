@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #695fc0, #3f72d5, #82e9ee);
+}
+
+.login-container {
+    width: 335px;
+}
+
+.profile {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto 17px auto;
+    background-color: rgba(45, 64, 190, 0.13);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.profile i {
+    font-size: 120px;
+    color: #3436b8;
+}
+
+.input-box {
+    width: 100%;
+    height: 42px;
+    background-color: white;
+    margin-bottom: 11px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding-left: 54px;
+    padding-right: 10px;
+    font-size: 14px;
+    color: #7189c4;
+    letter-spacing: 1px;
+}
+
+.input-box input::placeholder {
+    color: #8296c5;
+    opacity: 1;
+}
+
+.user-icon {
+    position: absolute;
+    left: 16px;
+    color: #6685d8;
+    font-size: 14px;
+}
+
+.lock-icon {
+    position: absolute;
+    left: 15px;
+    color: #6685d8;
+    font-size: 15px;
+}
+
+.options {
+    width: 100%;
+    height: 23px;
+    margin-top: 4px;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 11px;
+}
+
+.options label {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.options input[type="checkbox"] {
+    width: 11px;
+    height: 11px;
+    accent-color: #4d5e9c;
+}
+
+.options a {
+    color: white;
+    font-size: 10px;
+    font-style: italic;
+    text-decoration: none;
+}
+
+button {
+    width: 100%;
+    height: 42px;
+    border: none;
+    background-color: #353bbd;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3034ae;
+}
